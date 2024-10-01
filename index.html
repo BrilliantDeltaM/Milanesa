@@ -15,7 +15,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ms-auto">
               <li class="nav-item">
                 <a class="nav-link navtext" aria-current="page" href="#Home">Inicio</a>
               </li>
@@ -25,6 +25,9 @@
               <li class="nav-item">
                 <a class="nav-link navtext" href="#Invitados">Invitados</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link navtext" href="#Cronograma">Cronograma</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -33,13 +36,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
     <!--Ejemplo-->
-    <div id="carouselExample" class="carousel slide mt-5">
-        <div class="carousel-inner">
-          <div class="carousel-item active" style="max-height: 900px;">
-            <img src="./images/CM24_CARTEL_v3.jpg" class="d-block w-100" alt="...">
+    
+    <div id="carouselExample" class="carousel slide mt-5 " data-bs-ride="carousel">
+        <div class="carousel-inner border border-body-terartry border-2">
+          <div class="carousel-item active">
+            <img src="./images/Corrales (1).png" class="d-block w-100" style="max-height: 700px;" alt="...">
           </div>
-          <div class="carousel-item" style="max-height: 900px;">
-            <img src="./images/CC24_Actividades_01 (1).jpg" class="d-block w-100" alt="...">
+          <div class="carousel-item">
+            <img src="./images/Poster1.jpeg" class="d-block w-100" style="max-height: 700px;" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -50,11 +54,12 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
-    <div class="card mb-3 border-0 bgcolor" id="Acerca de">
-        <div class="row g-0 justify-content-center">
+      
+    </div>
+    <div class="card pt-5 p-5 mt-5 border-body-terartry bgcolor" id="Acerca de">
+        <div class="row g-0 d-flex align-items-center justify-content-center">
           <div class="col-md-5">
-            <img src="./images/Imagen2.png" class="img-fluid rounded-start bgremove" alt="...">
+            <img src="./images/Misael.png" class="img-fluid rounded-start bgremove" alt="...">
           </div>
           <div class="col-md-5">
             <div class="card-body">
@@ -66,12 +71,12 @@
             </h5>
             <h5 class="card-text">Durante ese tiempo se realizan diferentes actividades recreativas y artísticas que promueven la economía circular, el conocimiento, la cultura y el tiempo de ocio.</p>
             <h5 class="card-text">El evento culmina con una inauguración donde los artistas transfieren las obras a la comunidad para que se apropien de ellas y se consolide un punto más dentro del Circuito Mural</p>
-        </div>
-          </div>
+            </div>
+    </div>
         </div>
       </div>
-      <div class="card mb-3 border-0 bgcolor">
-        <div class="row g-0 justify-content-center">
+      <div class="card mb-3 border-body-terartry bgcolor">
+        <div class="row g-0 d-flex align-items-center justify-content-center">
           <div class="col-md-5">
             <div class="card-body">
               <h5 class="fw-bold">"Circuito Mural: Encuentro Internacional de Arte Urbano, Primera Edicion" se llevará a cabo del 1 al 5 de octubre en el barrio "Villa Obrera" de Tafi Viejo en Tucumán.
@@ -82,11 +87,12 @@
         </div>
           </div>
         <div class="col-md-5">
-            <img src="./images/Imagen3.png" class="img-fluid rounded-start bgremove" alt="...">
+            <img src="./images/Osiris.png" class="img-fluid rounded-start" alt="...">
         </div>
         </div>
-      </div>
-      <div class="container-fluid navcolor p-5" id="Invitados">
+      
+    </div>
+      <div class="container-fluid border-0 navcolor mt-5 p-5" id="Invitados">
         <h2 class="navtext fs-1 fw-bold text-center">ARTISTAS INVITADOS</h2>
       </div>
       <div class="container-fluid navcolor pb-4">
@@ -150,33 +156,72 @@
             </div>
         </div>
       </div>
+
+      <div class="container-fluid navcolor p-5">
+        <h2 class="navtext fs-1 fw-bold text-center">CRONOGRAMA</h2>
+      </div>
+      <div id="Cronograma" class="container-fluid pt-2 pb-5 navcolor">
+        <div class="row">
+            <div class="col-12 col-md-10 col-xl-8 offset-xl-2 ">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel_item2 carousel-item active ">
+                            <img src="./images/Cronograma2.jpg" class="d-block w-100 carousel_img" alt="">
+                        </div>
+                        <div class="carousel_item2 carousel-item">
+                          <img src="./images/Cronograma Circuito Mural 2024!Te invitamos a acompañarnos en todas las actividades que preparamos para esta semana.El punto de encuentro será la Plaza de la Villa Obrera, donde tendremos charlas, películas, música.jpg" class="d-block w-100 carousel_img2" alt="">
+                        </div>
+                        <div class="carousel_item2 carousel-item">
+                          <img src=".//images/Cronograma Circuito Mural 2024!Te invitamos a acompañarnos en todas las actividades que preparamos para esta semana.El punto de encuentro será la Plaza de la Villa Obrera, donde tendremos charlas, películas, mú (1).jpg" class="d-block w-100 carousel_img4" alt="">
+                        </div>
+                        <div class="carousel_item2 carousel-item">
+                            <img src="./images/Cronograma Circuito Mural 2024!Te invitamos a acompañarnos en todas las actividades que preparamos para esta semana.El punto de encuentro será la Plaza de la Villa Obrera, donde tendremos charlas, películas, mú (2).jpg" class="d-block w-100 carousel_img3" alt="">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+      </div>
+    <div class="container-fluid bgcolor2 p-3">
+      <div class="row">
+        <div class="col text-center">
+          <img class="border border-body-terartry w-100" src="./images/mapa.jpg" style="max-width: 700px;" alt="">
+        </div>
+      </div>
+    </div>
+      
+      
       <footer
       class="text-center text-lg-start bgcolor"
       >
 <!-- Grid container -->
-<div class="container pb-0">
-  <!-- Section: Links -->
+<div class="container-fluid">
   <section class="">
-    <!--Grid row-->
-    <div class="row justify-content-between">
-
-      <!-- Grid column -->
-      <div class="col-md-4 col-xl-3  mt-3">
-        <h6 class="text-uppercase mb-2 font-weight-bold">Contacto</h6>
-        <p><i class="fas fa-envelope mr-3"></i> Email: elcircuitodelmural@gmail.com</p>
-        <p><i class="fas fa-phone mr-3"></i> Instagram: @circuitomural</p>
-        <p><i class="fas fa-print mr-3"></i> Cel: +543814158423</p>
+    <div class="row">
+      <div class="col p-3">
+        <h6 class="text-uppercase font-weight-bold">Contacto</h6>
+        <p class="f_text"><i class="fas fa-envelope "></i> Email: elcircuitodelmural@gmail.com</p>
+        <p class="f_text"><i class="fas fa-phone "></i> Instagram: @circuitomural</p>
+        <p class="f_text"><i class="fas fa-print "></i> Cel: +543814158423</p>
       </div>
       <!-- Grid column -->
 
       <!-- Grid column -->
-      <div class="col-md-3  mx-auto mt-3">
-        <h4 class="text-uppercase mb-2 font-weight-bold">Redes</h4>
+      <div class="col p-3">
+        <h6 class="text-uppercase font-weight-bold">Redes</h6>
         <!-- Instagram -->
         <a
            href="https://www.instagram.com/circuitomural/"
            role="button"
-        ><img src="./images/1491580635-yumminkysocialmedia26_83102.png" style="width: 36px;;" alt=""></a>
+        ><img src="./images/bxl-instagram-alt.svg" style="width: 36px;;" alt=""></a>
       </div>
     </div>
     <!--Grid row-->
@@ -190,6 +235,7 @@
     <p class="navfont fw-dark" >© 2024 Copyright:CiRCUiTO MURAL</p>
 </div>
 <!-- Copyright -->
+
 </footer>
 <!-- Footer -->
 </body>
