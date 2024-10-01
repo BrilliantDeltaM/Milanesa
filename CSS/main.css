@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
 :root{
-    color-scheme: light;
+    
     --bs-body-font-family: "Saira Condensed", sans-serif;
 }
 .bgremove{
@@ -13,20 +13,28 @@
     background: #ede8e4;
 }
 
+.bgcolor2{
+    background: #fafafa ;
+}
+
 .navcolor{
     background: #ee650a;
 }
 
 .navtext{
+    font-size: 1.2rem;
     color: white;
-    font-size: 2rem;
-    line-height: 1;
+}
+.img-container{
+    display: flex;
+    align-items: center;
 }
 
 .navfont{
     font-family: 'Saira Stencil One', sans-serif ;
     line-height: 0.8;
     font-weight: 400;
+    font-size: 2rem;
 }
 
 .gal-img{
@@ -42,4 +50,32 @@
 
 .contacto.text{
     color: #ee650a;
+}
+.carousel_item2 img{
+    max-height: 700px; /* Ajusta esta altura según tus necesidades */
+    object-fit: contain;
+    object-position: center;
+    margin: 0 auto;
+    border: 2px solid #ede8e4;
+}
+
+.carousel_img{
+    background: linear-gradient(rgba(68, 57, 57, 0.5), rgba(46, 34, 34, 0.5)), url("../images/Cronograma2.jpg");
+
+}
+.carousel_img3{
+    background: linear-gradient(rgba(68, 57, 57, 0.5), rgba(46, 34, 34, 0.5)), url("../images/Cronograma\ Circuito\ Mural\ 2024!Te\ invitamos\ a\ acompañarnos\ en\ todas\ las\ actividades\ que\ preparamos\ para\ esta\ semana.El\ punto\ de\ encuentro\ será\ la\ Plaza\ de\ la\ Villa\ Obrera\,\ donde\ tendremos\ charlas\,\ películas\,\ mú\ \(2\).jpg");
+
+}
+
+.carousel_img4{
+    background: linear-gradient(rgba(68, 57, 57, 0.5), rgba(46, 34, 34, 0.5)), url("../images/Cronograma\ Circuito\ Mural\ 2024!Te\ invitamos\ a\ acompañarnos\ en\ todas\ las\ actividades\ que\ preparamos\ para\ esta\ semana.El\ punto\ de\ encuentro\ será\ la\ Plaza\ de\ la\ Villa\ Obrera\,\ donde\ tendremos\ charlas\,\ películas\,\ mú\ \(1\).jpg");
+}
+
+.carousel_img2{
+    background: linear-gradient(rgba(68, 57, 57, 0.5), rgba(46, 34, 34, 0.5)), url("../images/Cronograma\ Circuito\ Mural\ 2024!Te\ invitamos\ a\ acompañarnos\ en\ todas\ las\ actividades\ que\ preparamos\ para\ esta\ semana.El\ punto\ de\ encuentro\ será\ la\ Plaza\ de\ la\ Villa\ Obrera\,\ donde\ tendremos\ charlas\,\ películas\,\ música.jpg");
+}
+
+.f_text{
+    line-height: 1;
 }
